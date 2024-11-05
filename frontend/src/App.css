@@ -1,4 +1,4 @@
-/* Navbar Styles */
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -17,13 +17,12 @@
     text-decoration: underline;
   }
   
-  /* Home Content Styles */
+
   .home-content {
     text-align: center;
     padding: 20px;
   }
   
-  /* Carousel Styles */
   .carousel {
     overflow: hidden;
     width: 100%;
