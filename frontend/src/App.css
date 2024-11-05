@@ -1,0 +1,58 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Home Content Styles */
+  .home-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    overflow: hidden;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-card {
+    min-width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .carousel-card p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
